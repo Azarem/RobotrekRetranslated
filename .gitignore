@@ -1,0 +1,7 @@
+node_modules
+dist
+generated
+extracted
+rebuilt
+.env
+package-lock.json
