@@ -37,7 +37,7 @@ export async function extract(romPath: string, outPath: string) {
 }
 
 export async function rebuild(inPath: string, outPath: string) {  
-    await rebuildInternal(inPath, outPath, null, [ './modules/base' ]);
+    await rebuildInternal(inPath, outPath, '', [ './modules/base', './modules/debug-menu' ]);
 }
 
 // CLI handler - only execute when run directly (not when imported as a module)

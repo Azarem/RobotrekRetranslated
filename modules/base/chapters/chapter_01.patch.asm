@@ -365,10 +365,10 @@ string_0C90D6 `[DEF] [NAM:0] has begun to[N] understand robots.[N][PAU:3C][PAL:2
 string_0C917B `[DEF] 1. What is a Robot?[N] 2. Robot Parameters[N] 3. Robot Characteristics[N] Stop reading.`
 
 string_0C928C `[CLR]"How you allocate[N][PAL:2] Program Points[PAL:0] will[N] affect your robot's[N] performance a lot.[FIN]\
-[PAL:2] Power[PAL:0] - Increasing this[N] boosts damage dealt to[N] enemies.[FIN]\
-[PAL:2] Guard[PAL:0] - Increasing this[N] reduces the damage you[N] receive.[FIN]\
-[PAL:2] Speed[PAL:0] - Increasing this[N] makes it easier to dodge[N] enemy attacks.[FIN]\
-[PAL:2] Charge[PAL:0] - Increasing this[N] speeds up recovery of the[N] charge bar.[FIN]\
+ [PAL:2]Power[PAL:0] - Increasing this[N] boosts damage dealt to[N] enemies.[FIN]\
+ [PAL:2]Guard[PAL:0] - Increasing this[N] reduces the damage you[N] receive.[FIN]\
+ [PAL:2]Speed[PAL:0] - Increasing this[N] makes it easier to dodge[N] enemy attacks.[FIN]\
+ [PAL:2]Charge[PAL:0] - Increasing this[N] speeds up recovery of the[N] charge bar.[FIN]\
  Consider enemy traits and[N] the situation when you[N] program, and you can use[N] your robots well.ˮ[NXT]`
 
 string_0C93FF `[CLR]"You can build up to three[N] robots, and #2 and #3 each[N] have their own distinct[N] traits.[FIN]\
@@ -380,8 +380,22 @@ string_0C8856 `[DF5][TPL:1]So, did you read it[N]carefully? Come here, I've[N]go
 ---------------------------------------
 ?INCLUDE 'actor_05F846'
 ---------------------------------------
-string_05F910 `[DEF][TPL:1]This is called the[N][PAL:2]Invention Machine[PAL:0].[N]Your father built it.[FIN]Inventors use it to bring[N]their ideas to life.[FIN]By reading books and[N][PAL:2]listening to people[PAL:0],[N]you can get ideas.[FIN][PAL:2]Combining[PAL:0] inventions and[N]items can make something[N]new.[FIN]Build your own [TPL:1D],[N]do Maintenance, and[N]Program them too.[FIN][JMP:&string_05F9E3+M]`
-string_05FA31 `[DEF][TPL:1]You made a wonderful[N][TPL:1C]! Keep maintaining[N]it and powering it up.[FIN]With the Invention Machine,[N]a [PAL:2][TPL:1C]'s strength[N]can be programmed.[PAL:0][FIN]Test it later.[FIN]Here's a present: a[N]Transceiver. Reach me with[N]it anywhere.[FIN]Use it when you need me.[N][PAL:2]Equip it first,[PAL:0] then[N]press the [E2:4000] Button.[FIN][PAL:0] [NAM:0] received the[N][PAL:2] Transceiver[PAL:0]!`
+string_05F910 `[DEF][TPL:1]This is called the[N][PAL:2]Invention Machine[PAL:0].[FIN]\
+Your father built it so[N]inventors like him can bring[N]their ideas to life.[FIN]\
+By reading books and[N][PAL:2]listening to people[PAL:0], you can[N]get ideas and learn how to[N]create new inventions[FIN]\
+You can also [PAL:2]Combine[PAL:0] the[N]inventions you build or[N]items you find to make[N]something new.[FIN]\
+You can also use it to Build[N]your own robots, perform[N]Maintenance to repair them,[FIN]\
+and Program them by[N]assigning Program Points and[N]setting their RUN commands.[FIN][JMP:&string_05F9E3+M]`
+
+string_05FA31 `[TPL:27][TPL:1]You made a wonderful robot![FIN]\
+Make sure to keep[N]maintaining it and powering[N]it up as you go.[FIN]\
+You can even reprogram the[N]robot's strength using the[N]invention machine.[FIN]\
+Give it a try later on.[FIN]\
+And here’s a present from[N]me: a Transceiver.[FIN]\
+With this, you’ll be able to[N]get in touch with me[N]wherever you are.[FIN]\
+Use it whenever you need[N]something. To use it, [PAL:2]equip[N]it[PAL:0] and press the "Y button”[FIN]\
+HERONAM received the[N][PAL:2]Transceiver[PAL:0]!`
+
 string_05FB53 `[DEF]If I ever need you, I'll[N]use this to call you, too.[N]When that happens...[NXT]`
 string_05FB6E `[DEF]I'll let you know with this[N]sound. Be sure to remember[N]it.[FIN]That takes care of one job.[N]All right, let's head back[N]upstairs.[FIN]Oh, right-[N][PAL:2]about your [TPL:1C].[N]Show it to your father.[N][PAL:0]I'm sure he'll be pleased.[END]`
 string_0C84C6 `[DF5][TPL:1]I just tested it.[N][PAU:A]The Transceiver[N]seems to be working.[FIN]Want to save??[N] Yes.[N] Not yet.`
