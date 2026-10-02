@@ -1,3 +1,7 @@
+## Interested in this project?
+Join the Discord to ask questions and get the latest updates: [https://discord.gg/TbeN7YA2F7]
+
+## Instructions
 1. Make sure Node.js is installed on your local machine. For instructions go here [https://nodejs.org/en/download]
 2. Edit the `.env.local` file and change `ROM_PATH` to the location of the Robotrek (USA) ROM on your local hard drive.
 3. Open a terminal and run `npm run extract`. This will extract the ROM contents into the `./extracted` folder. You may use these for reference.
